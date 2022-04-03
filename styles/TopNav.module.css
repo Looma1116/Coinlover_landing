@@ -1,0 +1,23 @@
+.nav {
+  background-color: #0031b0;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-top: 0.2rem;
+  position: fixed;
+  width: 100%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+}
+.nav * {
+}
+.nav h1 {
+  font-weight: 720;
+  font-size: 1.7rem;
+  display: inline;
+  color: white;
+}
+.nav h2 {
+  font-weight: 500;
+  font-size: 1.1rem;
+  display: inline;
+  color: white;
+}
