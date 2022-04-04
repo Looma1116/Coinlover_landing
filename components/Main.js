@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "../styles/Main.module.css";
 
 import scrollPng from "../images/scroll.png";
-import crownPng from "../images/number1.png";
+import crownPng from "../images/crown.png";
 import { useEffect, useState } from "react";
 export default function Main() {
   const [scroll1, setScroll1] = useState(false);
@@ -86,8 +86,15 @@ export default function Main() {
             </h2>
           </div>
         </div>
+        <div className={styles.crown}>
+          <Image
+            src={crownPng}
+            alt="Number 1"
+            layout="fill"
+            objectFit="contain"
+          />
+        </div>
       </div>
-      <Image src={crownPng} alt="Number 1" width={50} height={60} />
     </div>
   );
 }

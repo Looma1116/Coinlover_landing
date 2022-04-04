@@ -162,8 +162,6 @@
   display: none;
 }
 
-@keyframes moveRight {
-}
-
-@keyframes moveLeft {
+.crown {
+  width: 0.1rem;
 }
