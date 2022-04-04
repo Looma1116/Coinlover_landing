@@ -86,14 +86,13 @@ export default function Main() {
             </h2>
           </div>
         </div>
-        <div className={styles.crown}>
-          <Image
-            src={crownPng}
-            alt="Number 1"
-            layout="fill"
-            objectFit="contain"
-          />
+      </div>
+      <div className={styles.reviewContainer}>
+        <div className={styles.crownBox}>
+          <div className={styles.crown}></div>
         </div>
+        <div className={styles.reviewTitle}>고객님들의 감사한 후기</div>
+        <div className={styles.navy}></div>
       </div>
     </div>
   );
